@@ -1,0 +1,107 @@
+/* sección principal */
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 50vh 0.5fr ;
+    background-color: #dfd9d9;
+    padding: 40px;
+}
+
+/* Estilos barra de botones */
+
+.buttonBar{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;  
+    padding: 20px;
+    height: 100px;
+}
+
+.button{
+    border: none;
+    background-color: #252423;
+    border-radius: 40px;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    align-self: flex-end;
+    margin-right: 40px;
+    margin-left: 30px;
+    box-shadow: 6px 7px 18px -3px #413f3e;
+}
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: 6px 7px 18px -3px #dfdbd9;
+    transform: scale(1.05);
+}
+
+/* Estilos galería de fotos */
+
+.galeryPhotosContainer{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 20px;
+    gap: 15px;
+    background-color: #c2b7b7;
+    max-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeryPhoto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .card{
+    width: 11vw;
+    height: 200px;
+    border-radius: 1%;
+    margin-bottom: 2px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-left: 50px;
+ }
+
+ .images{
+    height: 300px;
+    width: 220px;
+}
+
+ .title{
+     font-family: 'Lato', sans-serif;
+     font-weight: bold;
+     font-size: medium; 
+     text-align: center;
+ }
+
+/* Estilos galería de detalles */
+
+.cardDetails{
+    float: left;
+    padding: 10px;
+    -webkit-box-shadow: 2px 3px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 10px -3px rgba(0,0,0,0.75);
+    margin-right: 20px;
+    margin-left: 20px;
+ }
+
+.detailsContainer{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: auto;
+}
+
+.detailsProperty{
+    margin-right: 100px;
+}
+
+

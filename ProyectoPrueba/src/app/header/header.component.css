@@ -1,0 +1,36 @@
+/* ajustes generales */
+*{
+   box-sizing: border-box;
+   margin: 0;
+}
+
+/* estilos del encabezado */
+
+.headerPage{
+   display: grid;
+   grid-template-columns: 2fr 5fr;
+   grid-template-rows: 2fr 7fr;
+   background-image: url(../../assets/img/house1.jpg);
+   background-size: cover;
+   max-height: 45%;
+}
+
+/* estilos barra de navegación */
+.navBarContainer{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   width: 100%;
+   opacity: 0.7;
+}
+
+/* estilos barra buscador de propiedades */
+.searchBar{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 2;
+   grid-row-end: 3;
+   align-self: center;
+   opacity: 0.7;
+}

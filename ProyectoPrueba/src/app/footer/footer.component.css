@@ -1,0 +1,13 @@
+/* estilos footer */
+
+.footerPage{
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+.logos{
+    height: 20px;
+    width: 80px;
+}
